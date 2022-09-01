@@ -1,0 +1,392 @@
+body{
+   background-color: #3D087B;
+    top: 0px;
+    left: 0px;
+    width: 1346px;
+    height: 849px;
+
+}
+img{
+    width: 50px;
+    height: 50px;
+    margin: 34px 0px 0px 100px;
+    
+}
+.cl{
+    font-family: 'Rubik Marker Hatch', cursive;
+    font-size: 35px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+/*.container1{
+    font-size: 14px;
+    padding: 3px 3px 3px 5px;
+    background-color:white;
+    border-radius:5px ;
+    height:65px ;
+    width:170px;
+    position: relative;
+    top: 14px;
+    left: 180px;
+}*/
+.container2{
+    background-color:rgba(255,255,255,.8);
+    border-radius:5px ;
+    height:80px ;
+    width:285px ;
+    position:relative;
+    top: 43px;
+    left: 447px;
+    z-index: 1;
+    
+
+}
+.container3{
+    background-color:white;
+    border-radius:5px ;
+    height: 80px;
+    width: 380px;
+    position: relative;
+    top: 34px;
+    left: 120px;
+    z-index: 2;
+}
+
+.container4{
+    background-color: rgba(255,255,255,.2);
+    border-radius: 5px;
+    height: 80px;
+    width: 235px;
+    position: relative;
+    top: -30px;
+    left:730px ;
+}
+.contain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contain1{
+   width:520px;
+   height:300px ;
+   background-color: white;
+   position: relative;
+   top: px;
+   left:100px;
+   border-radius: 5px;
+}
+.contain2{
+    width:400px;
+    height:80px ;
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left:140px;
+    border-radius: 5px;
+}
+.contain h3{
+    font-size: 20PX;
+    color: #8E53F0;
+    padding: 10px 0px 0px 20px;
+    font-family: 'DynaPuff', cursive;
+
+}
+.contain3{
+    color:white;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    padding :0px 0px 5px 10px;
+    width:520px;
+    height:50px ;
+    border: 1px solid #5F0089 ;
+    background-color:#5F0089;
+    position: relative;
+    top: 10px;
+    left:100px;
+    border-radius: 5px;
+} 
+
+
+/*.contain4{
+    width:400px;
+    height:300px ;
+    background-color:white;
+    position: relative;
+    top: -130px;
+    left:140px;
+    border-radius: 5px;
+}*/
+.contain4 img{
+    width:400px;
+    height: 320px;
+    position: relative;
+    top: -240px;
+    left: 30px;
+}
+
+
+.b3n{
+    margin-top: 5px;
+    border: 1px solid #6E54EC ;
+    width: 280px;
+    height: 60px;
+    background-image: linear-gradient(to right,#6E54EC,#FC5EFF,#CB52F8,#F1A7C5);
+    color: white;
+    position: relative;
+    left: 100px;
+    top: -275px;
+
+}
+.b3n b{
+    font-size: 20px;
+}
+.b3n:hover{
+    background-image: linear-gradient(to left,#6E54EC,#FC5EFF,#CB52F8,#F1A7C5); 
+}
+.square1{
+color: #F25CFE;
+ border: 1px solid #5F0089 ;
+margin-top: 5px;
+padding: 10px;
+line-height: 25px;
+width:225px;
+height: 100px;
+background-color:#5F0089;
+position: relative;
+top: -343px;
+left: 393px;
+border-radius: 10px;
+}
+/*.square2{
+    font-size: 14px;
+    padding: 5px;
+    width:220px;
+    height: 50px;
+    background-color:white;
+    position: relative;
+    top : -370px;
+    left: 55px;
+    border-radius: 5px;
+    }*/
+    
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}   
+.line1 img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: -80px;
+    top: -15px;
+}    
+.line2 span {
+    position: relative;
+    left: -40px;
+    top:  30px;
+    font-size: 19px;
+    color: #3D087B;
+}    
+.line3 select{
+    padding-left: 20px;
+    width: 200px;
+    height: 20px;
+    position: relative;
+    left: -5px;
+    top:  30px;
+    color: #3D087B;
+}    
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box1 img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: -70px;
+    top: -15px;
+}    
+.box2 span {
+    position: relative;
+    left: -40px;
+    top:  30px;
+    font-size: 19px;
+    color: #3D087B;
+}    
+.box3 select{
+    padding-left: 20px;
+    width: 200px;
+    height: 20px;
+    position: relative;
+    left: 3px;
+    top:  30px;
+    color: #3D087B;
+}    
+.rnv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rnv1 img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: -70px;
+    top: -10px;
+}    
+.rnv2 span {
+    position: relative;
+    left: -40px;
+    top:  30px;
+    font-size: 19px;
+    color: #3D087B;
+}    
+.rnv3 select{
+    padding-left: 20px;
+    width: 200px;
+    height: 20px;
+    position: relative;
+    left: 5px;
+    top:  30px;
+    color: #3D087B;
+}    
+.snv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.snv1 img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: -70px;
+    top: -5px;
+}    
+.snv2 span {
+    position: relative;
+    left: -60px;
+    top:  30px;
+    font-size: 19px;
+    color: #3D087B;
+}    
+.snv3 select{
+    padding-left: 20px;
+    width: 200px;
+    height: 20px;
+    position: relative;
+    left: -30px;
+    top:  30px;
+    color: #3D087B;
+}    
+.prn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.prn1 span{
+ color: #3D087B;
+ font-size: 19px;
+ position: relative;
+ top: 25px;
+ left: 10px;
+}
+.prn2 img{
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: -70px;
+  top: -23px;
+
+}
+.prn3 img{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: -155px;
+    top: -23px;
+}
+.prn4 img{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: -235px;
+    top: -23px;
+}
+.prn5 img{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: 315px;
+    top: -23px;
+}
+.one{
+    color: #8A11BF;
+    font-size: 18px;
+     position: relative;
+     left: 40px;
+     top:-80px ;
+}
+.one b{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.one1{
+    color: #8A11BF;
+    font-size: 18px;
+     position: relative;
+     left: -45px;
+     top:-80px ;
+}
+.one1 b{
+    font-size: 20px;
+    margin-left: 5px;
+}
+    
+.one2{
+    color: #8A11BF;
+    font-size: 18px;
+     position: relative;
+     left: -125px;
+     top:-80px ;
+}
+.one2 b{
+    font-size: 20px;
+    margin-left: 5px;
+}
+    
+.one3{
+    color:white;
+    font-size: 22px;
+     position: relative;
+     right: 200px;
+     top:-70px ;
+    
+}
+.shade{
+    position: relative;
+    right: 476px;
+    top: 70px;
+}
+.shade1{
+    position: relative;
+    right: 476px;
+    top: 65px;
+}
+.shade2{
+    position: relative;
+    right: 476px;
+    top: 65px;
+}
+ 
+
+ 
